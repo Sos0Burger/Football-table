@@ -17,6 +17,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    public void setScoreToZero(View view){
+        leftCounter = 0;
+        rightCounter = 0;
+        resetUI();
+    }
    public void addPointToLeftTeam(View view){
         TextView leftScore = findViewById(R.id.leftscore);
         leftCounter++;

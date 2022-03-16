@@ -130,6 +130,21 @@
         app:layout_constraintVertical_bias="0.745" />
 
     <Button
+        android:id="@+id/drop"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#91A7BD"
+        android:onClick="setScoreToZero"
+        android:text="@string/drop"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.931" />
+
+    <Button
         android:id="@+id/button2"
         android:layout_width="150dp"
         android:layout_height="100dp"

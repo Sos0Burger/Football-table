@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FootBall</string>
+    <string name="score">Score</string>
+    <string name="Russia">Russia</string>
+    <string name="Ukraine">Ukraine</string>
+    <string name="ukarainescore" translatable="false">0</string>
+    <string name="russiascore" translatable="false">0</string>
+    <string name="addpoint">Add point</string>
+    <string name="separator" translatable="false">:</string>
+
+</resources>
